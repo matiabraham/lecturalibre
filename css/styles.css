@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #141414;
+}
+
+/* BARRA NAVEGACION */
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: #202020;
+}
+
+.barra-nav {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+
+}    
+
+.nombre-pagina {
+    color: #ffffff;
+    font-family:"bungee spice",sans-serif;
+    margin: 10px 10px 10px 10px;
+}
+
+.logo-header {
+    margin: 10px;
+}
+.logo-header img {
+    width: 70px;
+    height: 90px;  
+    transform: scale(0.8); 
+}
+
+.lista-menu {
+    list-style-type: none;
+    font-family:"montserrat",sans-serif;
+    display: flex;
+    flex-flow: row;
+    margin: 0px;
+}
+    
+.lista-menu li {
+    margin: 10px 10px 10px 10px;
+
+}
+
+a{  
+    color: rgba(255, 255, 255, 0.788);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #808080;
+    font-weight:600;
+}
+
+/*BARRA BUSQUEDA*/
+
+.barra-buscar {
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.barra-buscar button {
+    color: #e65d2b;
+}
+/*HEADINGS*/
+
+.h2-titulos {
+    color: white;
+    font-family:"montserrat",sans-serif;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+
+.h3-titulos {
+    color: white;
+    font-family:"montserrat",sans-serif;
+    margin-top: 40px;
+}
+/* INDEX */
+
+.main-index {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section1 {
+    width: 30%;
+    text-align: center;
+}
+
+.section1 ul {
+    display: flex;
+    flex-flow: column wrap;
+}
+.libros-recomendaciones-semanales {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+}
+
+.libros-recomendaciones-semanales li {
+    display: flex;
+}
+.libros-recomendaciones-semanales img {
+    max-width: 150px;
+    height: 250px;
+}
+
+.libros-recomendaciones-semanales p {
+    color: white;
+    font-family:"montserrat",sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+.section2y3 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px 0px 0px 90px;
+    text-align: center;
+}    
+
+.libros-recien-agregados {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+.libros-recien-agregados img {
+    height: 250px;
+    width: 150px;
+    margin: 5px;
+}
+
+.libros-mas-vistos {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.libros-mas-vistos img {
+    width: 150px;
+    height: 250px;
+    margin: 5px;
+}
+
+/*GENEROS*/
+
+
+.generos img {
+    height: 250px;
+    width: 250px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+/*MEDIA*/
+
+@media (max-width: 1376px) {
+    .main-index {
+    flex-direction: column-reverse;
+    }
+    .section1 {
+        margin: 0;
+        width: 100%;
+    }
+    .section1 ul {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .section1 p {
+        width: 300px;
+    }
+    .section1 li {
+        flex-flow: column wrap;
+        align-items: center;
+        width: 500px;
+
+    }
+    .section2y3 {
+        margin: 0;
+        align-items: center;
+    }
+
+    .section2y3 img {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .barra-buscar {
+        width: auto;
+    }
+
+}

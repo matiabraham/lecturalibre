@@ -10,20 +10,33 @@
 </head>
 <body>
     <header>
-        <nav class="barra-nav">
-            <a class="logo-header" href="./index.html">
-                <img src="../assets/logo.png" alt="logo de la pagina" title="logo de la pagina letra l con fuego">
-            </a>    
-            <h1 class="nombre-pagina">Lectura Libre</h1>
-            <ul class="lista-menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./generos.html">Generos</a></li>
-                <li><a href="./mas_vistos.html">Mas vistos</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="logo-header" href="./index.html">
+                    <img src="../assets/logo.png" alt="logo de la pagina" title="logo de la pagina letra l con fuego">
+                </a>    
+                <h1 class="nombre-pagina">Lectura Libre</h1>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="lista-menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./generos.html">Generos</a></li>
+                        <li><a href="./mas_vistos.html">Mas vistos</a></li>
+                        <li><a href="./novedades.html">Novedades</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>  
+    </header>
+    <div class="barra-buscar container">
+        <form class="d-flex justify-content-center" role="search">
+            <input class="form-control me-2" type="search" placeholder="Busca un libro" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Buscar</button>
+        </form>
+    </div>
         <main class="main-generos">
         <section>
             <h2 class="h2-titulos text-center">Generos</h2>

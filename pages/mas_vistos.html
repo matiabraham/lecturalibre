@@ -10,86 +10,100 @@
 </head>
 <body>
     <header>
-        <nav class="barra-nav">
-            <a class="logo-header" href="./index.html">
-                <img src="../assets/logo.png" alt="logo de la pagina" title="logo de la pagina letra l con fuego">
-            </a>    
-            <h1 class="nombre-pagina">Lectura Libre</h1>
-            <ul class="lista-menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./generos.html">Generos</a></li>
-                <li><a href="./mas_vistos.html">Mas vistos</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="logo-header" href="./index.html">
+                    <img src="../assets/logo.png" alt="logo de la pagina" title="logo de la pagina letra l con fuego">
+                </a>    
+                <h1 class="nombre-pagina">Lectura Libre</h1>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="lista-menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./generos.html">Generos</a></li>
+                        <li><a href="./mas_vistos.html">Mas vistos</a></li>
+                        <li><a href="./novedades.html">Novedades</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <div class="barra-buscar container">
         <form class="d-flex justify-content-center" role="search">
             <input class="form-control me-2" type="search" placeholder="Busca un libro" aria-label="Search">
             <button class="btn btn-outline-warning" type="submit">Buscar</button>
+        </form>
     </div>
     <main>
-        <section>
-            <h2 class="h2-titulos">Los mas vistos</h2>
-            <h3 class="h3-titulos">Semana</h3>
-                <ul>
+        <h2 class="h2-titulos text-center">Los mas vistos</h2>
+        <div class="section123 d-flex flex-column">
+            <section>
+                <h3 class="h3-titulos text-center">Semana</h3>
+                    <ul class="d-flex flex-wrap justify-content-center list-unstyled">
+                        <li>
+                            <img class="rounded" src="../assets/señordelosanillos.png" alt="libro señor de los anillos">
+                            <p></p>
+                        </li>
+                        <li>
+                            <img class="rounded" src="../assets/arthas.png" alt="libro arthas">
+                            <p></p>
+                        </li>
+                        <li>
+                            <img class="rounded" src="../assets/bajolamismaestrella.jpg" alt="libro balo la misma estrella">
+                            <p></p>
+                        </li>
+                        <li>
+                            <img class="rounded" src="../assets/harrypotter.png" alt="libro harry potter">
+                            <p></p>
+                        </li>
+                    </ul>
+            </section>
+            <section>
+                <h3 class="h3-titulos text-center">Mes</h3>
+                <ul class="d-flex flex-wrap justify-content-center list-unstyled">"
                     <li>
-                        <img src="../assets/señordelosanillos.png" alt="libro señor de los anillos">
+                        <img class="rounded" src="../assets/xmen.png" alt="libro xmen">
                         <p></p>
                     </li>
                     <li>
-                        <img src="../assets/arthas.png" alt="libro arthas">
+                        <img class="rounded" src="../assets/elprincipito.jpg" alt="libro el principito">
                         <p></p>
                     </li>
                     <li>
-                        <img src="../assets/bajolamismaestrella.jpg" alt="libro balo la misma estrella">
+                        <img class="rounded" src="../assets/problematrescuerpos.png" alt=" libro problema de los tres cuerpos">
                         <p></p>
                     </li>
                     <li>
-                        <img src="../assets/harrypotter.png" alt="libro harry potter">
+                        <img class="rounded" src="../assets/bajolamismaestrella.jpg" alt="libro bajo la misma estrella">
                         <p></p>
                     </li>
                 </ul>
-            <h3 class="h3-titulos">Mes</h3>
-            <ul>
-                <li>
-                    <img src="../assets/xmen.png" alt="libro xmen">
-                    <p></p>
-                </li>
-                <li>
-                    <img src="../assets/elprincipito.jpg" alt="libro el principito">
-                    <p></p>
-                </li>
-                <li>
-                    <img src="../assets/problematrescuerpos.png" alt=" libro problema de los tres cuerpos">
-                    <p></p>
-                </li>
-                <li>
-                    <img src="../assets/bajolamismaestrella.jpg" alt="libro bajo la misma estrella">
-                    <p></p>
-                </li>
-            </ul>
-            <h3 class="h3-titulos">Año</h3>
-            <ul>
-                <li>
-                    <img src="../assets/arthas.png" alt="libro arthas">
-                    <p></p>
-                </li>
-                <li>
-                    <img src="../assets/librodune.jpg" alt="libro dune">
-                    <p></p>
-                </li>
-                <li>
-                    <img src="../assets/harrypotter.png" alt="libro harry potter">
-                    <p></p>
-                </li>
-                <li>
-                    <img src="../assets/xmen.png" alt="libro xmen">
-                    <p></p>
-                </li>
-            </ul>
-        </section>
+            </section>
+            <section>
+                <h3 class="h3-titulos text-center">Año</h3>
+                <ul class="d-flex flex-wrap justify-content-center list-unstyled">
+                    <li>
+                        <img class="rounded" src="../assets/arthas.png" alt="libro arthas">
+                        <p></p>
+                    </li>
+                    <li>
+                        <img class="rounded" src="../assets/librodune.jpg" alt="libro dune">
+                        <p></p>
+                    </li>
+                    <li>
+                        <img class="rounded" src="../assets/harrypotter.png" alt="libro harry potter">
+                        <p></p>
+                    </li>
+                    <li>
+                        <img class="rounded" src="../assets/xmen.png" alt="libro xmen">
+                        <p></p>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>    
     <footer>
         <a href="https://www.Twitter.com" target="_blank"><img src="../assets/twitterlogo.png" alt="twitter logo"></a>

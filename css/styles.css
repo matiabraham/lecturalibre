@@ -12,6 +12,13 @@ header {
     background-color: #202020;
 }
 
+.navbar-toggler {
+    background-color: #e65d2b; /* Cambia el color de fondo */
+    border: 1px solid #ffcc00; /* Cambia el color del borde */
+}
+
+
+
 .barra-nav {
     display: flex;
     align-items: center;
@@ -166,6 +173,13 @@ a:hover {
     width: 250px;
 }
 
+/*MAS VISTOS*/
+
+.section123 img {
+    max-width: 150px;
+    height: 250px;
+    margin: 25px;
+}
 /*FOOTER*/
 
 footer {
@@ -185,6 +199,7 @@ footer {
     .section1 ul {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         
     }
     .section1 p {

@@ -10,50 +10,64 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="logo-header" href="./index.html">
-                <img src="../assets/logo.png" alt="logo de la pagina" title="logo de la pagina letra l con fuego">
-            </a>    
-            <h1 class="nombre-pagina">Lectura Libre</h1>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="lista-menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./generos.html">Generos</a></li>
-                    <li><a href="./mas_vistos.html">Mas vistos</a></li>
-                    <li><a href="./novedades.html">Novedades</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="logo-header" href="./index.html">
+                    <img src="../assets/logo.png" alt="logo de la pagina" title="logo de la pagina letra l con fuego">
+                </a>    
+                <h1 class="nombre-pagina">Lectura Libre</h1>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="lista-menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./generos.html">Generos</a></li>
+                        <li><a href="./mas_vistos.html">Mas vistos</a></li>
+                        <li><a href="./novedades.html">Novedades</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2 class="h2-titulos">Contacto</h2>
-            <form method="post">
-                <ul>
-                    <li><input type="text" name="nombre" placeholder="Ingresar nombre" required></li>
-                    <li><input type="text" name="apellido" placeholder="Ingresar apellido" required></li>
-                    <li><input type="email" name="email" placeholder="Ingresar email" required></li>
-                    <li>
-                        <label for="comment">Deja tu comentario:</label><br>
-                        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
-                    </li>
-                    <li><input type="submit" value="Enviar"></li>
-                </ul>
-            </form>
-        </section>
-        
+        <h2 class="h2-titulos text-center">Contacto</h2>
+        <div class=" contacto container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="comentario" rows="6" placeholder="Deja tu comentario aquí"></textarea>
+                </div>
+                    <button type="submit" class="btn btn-outline-warning">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <a href="https://www.Twitter.com" target="_blank"><img src="../assets/twitterlogo.png" alt="twitter logo"></a>
-        <a href="https://www.facebook.com" target="_blank"><img src="../assets/facebooklogo.png" alt="facebook logo"></a>
-        <a href="https://www.youtube.com" target="_blank"><img src="../assets/youtubelogo.png" alt="youtube logo"></a>
-        <p>Todos los derechos reservados &copy; 2024</p>
+        <div class=" iconos-footer d-flex justify-content-center">
+            <a href="https://www.Twitter.com" target="_blank"><img src="../assets/twitterlogo.png" alt="twitter logo"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="../assets/facebooklogo.png" alt="facebook logo"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="../assets/youtubelogo.png" alt="youtube logo"></a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>Todos los derechos reservados &copy; 2024</p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

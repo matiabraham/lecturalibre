@@ -282,3 +282,17 @@ footer a {
     }
 
 }
+
+@media (max-width: 500px) {
+    .lista-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .section123 p {
+        margin: 50px;
+    }
+}

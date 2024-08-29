@@ -241,7 +241,7 @@ footer a {
     margin: 10px;
 
 }
-/*MEDIA*/
+/*MEDIA INDEX*/
 
 @media (max-width: 1376px) {
     .main-index {
@@ -276,12 +276,29 @@ footer a {
     }
 }
 
+@media (max-width: 491px) {
+    .libros-recien-agregados {
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .libros-mas-vistos {
+        justify-content: center;
+        padding: 0px;
+    }
+}
+
+
+/** BARRA BUSCAR*/
+
 @media (max-width: 575px) {
     .barra-buscar {
         width: auto;
     }
 
 }
+
+/** NAVBAR */
 
 @media (max-width: 500px) {
     .lista-menu {
@@ -296,3 +313,4 @@ footer a {
         margin: 50px;
     }
 }
+

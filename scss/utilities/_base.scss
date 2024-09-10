@@ -1,0 +1,54 @@
+//fuentes
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+//color fondo
+$color-fondo:#141414;
+
+//color fondo header
+$color-fondo-header:#202020;
+
+//color texto nav bar
+$color-texto-navbar:#ffffff;
+$color-texto-navbar-hover:#808080;
+
+//color navbar toggler
+$color-navbar-toggler:#e65d2b;
+$color-navbar-toggler-border:#ffcc00;
+
+//color barra buscar
+$color-barra-buscar-button:#e65d2b;
+
+//color h2
+$color-h2:#ffffff;
+
+//color h3
+$color-h3:#ffffff;
+
+//color texto
+$color-texto:#ffffff;
+
+//color contacto button
+$color-contacto-button:#e65d2b;
+
+//color contacto label
+$color-contacto-label:#ffffff;
+
+//color fondo footer
+$color-fondo-footer:#e65d2bea;
+
+
+
+/*RESET*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*FUENTES*/
+
+.nombre-pagina {
+    font-family:"bungee spice",sans-serif;
+}
+
+

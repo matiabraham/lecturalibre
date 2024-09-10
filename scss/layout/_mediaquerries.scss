@@ -1,0 +1,75 @@
+
+
+
+/*MEDIA INDEX*/
+
+@media (max-width: 1376px) {
+    .main-index {
+    flex-direction: column-reverse;
+    }
+    .section1 {
+        margin: 0;
+        width: 100%;
+    }
+    .section1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    .section1 p {
+        width: 300px;
+    }
+    .section1 li {
+        flex-flow: column wrap;
+        align-items: center;
+        width: 500px;
+
+    }
+    .section2y3 {
+        margin: 0;
+        align-items: center;
+    }
+
+    .section2y3 img {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 491px) {
+    .libros-recien-agregados {
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .libros-mas-vistos {
+        justify-content: center;
+        padding: 0px;
+    }
+}
+
+
+/** BARRA BUSCAR*/
+
+@media (max-width: 575px) {
+    .barra-buscar {
+        width: auto;
+    }
+
+}
+
+/** NAVBAR */
+
+@media (max-width: 500px) {
+    .lista-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .section123 p {
+        margin: 50px;
+    }
+}

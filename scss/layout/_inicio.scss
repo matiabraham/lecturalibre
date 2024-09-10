@@ -1,0 +1,29 @@
+
+
+
+/* index */
+
+.section1 {
+    width: 30%;
+    text-align: center;
+
+    ul {
+        display: flex;
+        flex-flow: column wrap;
+    }
+        li {
+            display: flex;
+        }
+
+            img {
+                @include sizes-imagenes(250px,150px)    
+            }
+
+            p {
+                color:$color-texto;
+                font-family: "montserrat",sans-serif;
+                flex-flow: row,center;
+                margin: 5px;
+            }    
+    }
+

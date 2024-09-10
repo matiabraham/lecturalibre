@@ -1,0 +1,99 @@
+// header nav footer, cosas generales
+
+
+/*fondo*/
+
+body {
+    background-color: $color-fondo;
+}
+
+/*HEADER*/
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: $color-fondo-header;
+    }
+
+    /*LOGO*/
+
+    .logo-header {
+        margin: 10px;
+
+        img {
+            width: 70px;
+            height: 90px;
+            transform: scale(0.8);
+    }
+}
+
+    /*TITULO*/
+    .nombre-pagina {
+        font-family: "bungee spice",sans-serif;
+        margin: 10px 10px 10px 10px;
+    }
+
+    /*menu desplegable*/
+    .navbar-toggler {
+        background-color:$color-navbar-toggler;
+        border: 1px solid $color-navbar-toggler-border;
+    }
+
+    .lista-menu {
+        list-style-type: none;
+        font-family:"montserrat",sans-serif;
+        display: flex;
+        flex-flow: row;
+        margin: 0px;
+
+        li {
+            margin: 10px 10px 10px 10px;
+
+            a {
+                color:$color-texto-navbar;
+                text-decoration: none;
+                font-weight: 600;
+                
+                &:hover {
+                    color: $color-texto-navbar-hover;
+                }
+            }
+
+        }
+    }
+
+    /*BARRA BUSQUEDA*/
+
+    .barra-buscar {
+        width: 1000px;
+        margin: auto;
+        margin-top: 60px;
+        button {
+            color:$color-barra-buscar-button;
+        }
+    }
+
+    /*HEADINGS*/
+
+    .h2-titulos {
+        color:$color-h2;
+        font-family: "montserrat",sans-serif;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .h3-titulos {
+        color: $color-h3;
+        font-family: "montserrat",sans-serif;
+        margin-top: 40px;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        background-color:$color-fondo-footer;
+        height: 80px;
+        a {
+            margin: 10px;
+        }
+    }

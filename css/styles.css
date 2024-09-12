@@ -67,8 +67,8 @@ header {
 /*BARRA BUSQUEDA*/
 .barra-buscar {
   width: 1000px;
+  height: 50px;
   margin: auto;
-  margin-top: 60px;
 }
 .barra-buscar button {
   color: #e65d2b;
@@ -88,6 +88,14 @@ header {
   margin-top: 40px;
 }
 
+.h3-titulos-novedades {
+  color: #ffffff;
+  font-family: "montserrat", sans-serif;
+  height: 100px;
+  width: 500px;
+  margin: 0px 10px 0px 10px;
+}
+
 /*FOOTER*/
 footer {
   background-color: rgba(230, 93, 43, 0.9176470588);
@@ -97,14 +105,22 @@ footer a {
   margin: 10px;
 }
 
-/* index */
+/* INDEX */
+.main-index {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .section1 {
   width: 30%;
   text-align: center;
 }
-.section1 ul {
+.section1 .libros-recomendaciones-semanales {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 .section1 li {
   display: flex;
@@ -116,8 +132,85 @@ footer a {
 .section1 p {
   color: #ffffff;
   font-family: "montserrat", sans-serif;
-  flex-flow: row, center;
+  flex-direction: row;
+  justify-content: center;
   margin: 5px;
+}
+
+.section2y3 {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0px 0px 0px 90px;
+  text-align: center;
+}
+.section2y3 .section2 .libros-recien-agregados {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+.section2y3 .section2 img {
+  height: 250px;
+  width: 150px;
+  margin: 5px;
+}
+.section2y3 .section3 .libros-mas-vistos {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+.section2y3 .section3 .libros-mas-vistos img {
+  height: 250px;
+  width: 150px;
+  margin: 5px;
+}
+
+/*generos*/
+.generos img {
+  height: 250px;
+  width: 250px;
+}
+
+/*MAS VISTOS*/
+.section123 li {
+  width: 400px;
+}
+.section123 li img {
+  max-width: 150px;
+  height: 250px;
+  width: 150px;
+}
+.section123 li p {
+  color: #ffffff;
+  font-family: "montserrat", sans-serif;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  width: 400px;
+  height: 200px;
+}
+
+/*NOVEDADES*/
+.section-novedades img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+.section-novedades p {
+  color: #ffffff;
+  font-family: "montserrat", sans-serif;
+  flex-direction: column;
+  height: 200px;
+  width: 400px;
+  margin: 0px 10px 0px 10px;
+}
+
+/*CONTACTO*/
+.contacto label {
+  color: #ffffff;
+}
+.contacto button {
+  color: #e65d2b;
+  margin-bottom: 10px;
 }
 
 /*MEDIA INDEX*/

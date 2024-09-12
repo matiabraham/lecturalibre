@@ -1,0 +1,19 @@
+
+/*NOVEDADES*/
+
+.section-novedades{
+    img {
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+    }
+
+    p {
+        color: $color-texto;
+        font-family: "montserrat",sans-serif;
+        flex-direction: column;
+        height: 200px;
+        width: 400px;
+        margin: 0px 10px 0px 10px;
+    }
+}

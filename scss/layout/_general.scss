@@ -66,8 +66,9 @@ header {
 
     .barra-buscar {
         width: 1000px;
+        height: 50px;
         margin: auto;
-        margin-top: 60px;
+
         button {
             color:$color-barra-buscar-button;
         }
@@ -87,6 +88,14 @@ header {
         font-family: "montserrat",sans-serif;
         margin-top: 40px;
     }
+
+    .h3-titulos-novedades {
+        color: $color-h3;
+        font-family: "montserrat",sans-serif;
+        height: 100px;
+        width: 500px;
+        margin: 0px 10px 0px 10px;
+    }    
 
     /*FOOTER*/
 

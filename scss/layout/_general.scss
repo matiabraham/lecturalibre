@@ -100,7 +100,8 @@ header {
     /*FOOTER*/
 
     footer {
-        background-color:$color-fondo-footer;
+        background: #de7b0a;
+        background: linear-gradient(90deg, #de7b0a 25%, #f96a0b 50%, #de7b0a 75%);
         height: 80px;
         a {
             margin: 10px;

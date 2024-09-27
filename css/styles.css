@@ -21,6 +21,7 @@ header {
   top: 0px;
   left: 0px;
   background-color: #202020;
+  z-index: 1000;
 }
 
 /*LOGO*/
@@ -269,7 +270,9 @@ footer a {
   }
 }
 @media (max-width: 400px) {
-  .section123 p {
+  .section123 li p {
+    height: 300px;
+    width: 300px;
     margin: 50px;
   }
 }
